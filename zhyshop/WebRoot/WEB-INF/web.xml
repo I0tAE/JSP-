@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyLogin</servlet-name>
+  <servlet-class>zhy.servlet.zhyLogin</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyQuery</servlet-name>
+  <servlet-class>zhy.servlet.zhyQuery</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyAdd</servlet-name>
+  <servlet-class>zhy.servlet.zhyAdd</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyDelete</servlet-name>
+  <servlet-class>zhy.servlet.zhyDelete</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyUpdate</servlet-name>
+  <servlet-class>zhy.servlet.zhyUpdate</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyCharge</servlet-name>
+  <servlet-class>zhy.servlet.zhyCharge</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyExcel</servlet-name>
+  <servlet-class>zhy.servlet.zhyExcel</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyHw</servlet-name>
+  <servlet-class>zhy.servlet.zhyHw</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyAddGoods</servlet-name>
+  <servlet-class>zhy.servlet.zhyAddGoods</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyUpdateHw</servlet-name>
+  <servlet-class>zhy.servlet.zhyUpdateHw</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyDeleteHw</servlet-name>
+  <servlet-class>zhy.servlet.zhyDeleteHw</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyHwToBase</servlet-name>
+  <servlet-class>zhy.servlet.zhyHwToBase</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyOutGoodsToExcel</servlet-name>
+  <servlet-class>zhy.servlet.zhyOutGoodsToExcel</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyDeletels</servlet-name>
+  <servlet-class>zhy.servlet.zhyDeletels</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyDeletelsByid</servlet-name>
+  <servlet-class>zhy.servlet.zhyDeletelsByid</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyDeleteSp</servlet-name>
+  <servlet-class>zhy.servlet.zhyDeleteSp</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyDrop</servlet-name>
+  <servlet-class>zhy.servlet.zhyDrop</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>zhyrkxq</servlet-name>
+  <servlet-class>zhy.servlet.zhyrkxq</servlet-class>
+ </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>zhyrkxq2</servlet-name>
+    <servlet-class>zhy.servlet.zhyrkxq2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>zhySpls</servlet-name>
+    <servlet-class>zhy.servlet.zhySpls</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>zhySpls1</servlet-name>
+    <servlet-class>zhy.servlet.zhySpls1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>zhySpls2</servlet-name>
+    <servlet-class>zhy.servlet.zhySpls2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>zhysprk</servlet-name>
+    <servlet-class>zhy.servlet.zhysprk</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>zhySprkAll</servlet-name>
+    <servlet-class>zhy.servlet.zhySprkAll</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>zhyXxqk</servlet-name>
+    <servlet-class>zhy.servlet.zhyXxqk</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+ <servlet-mapping>
+  <servlet-name>zhyLogin</servlet-name>
+  <url-pattern>/zhyLogin</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyQuery</servlet-name>
+  <url-pattern>/zhyQuery</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyAdd</servlet-name>
+  <url-pattern>/zhyAdd</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyDelete</servlet-name>
+  <url-pattern>/zhyDelete</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyUpdate</servlet-name>
+  <url-pattern>/zhyUpdate</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyCharge</servlet-name>
+  <url-pattern>/zhyCharge</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyExcel</servlet-name>
+  <url-pattern>/zhyExcel</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyHw</servlet-name>
+  <url-pattern>/zhyHw</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyAddGoods</servlet-name>
+  <url-pattern>/zhyAddGoods</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyUpdateHw</servlet-name>
+  <url-pattern>/zhyUpdateHw</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyDeleteHw</servlet-name>
+  <url-pattern>/zhyDeleteHw</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyHwToBase</servlet-name>
+  <url-pattern>/zhyHwToBase</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyOutGoodsToExcel</servlet-name>
+  <url-pattern>/zhyOutGoodsToExcel</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyDeletels</servlet-name>
+  <url-pattern>/zhyDeletels</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyDeletelsByid</servlet-name>
+  <url-pattern>/zhyDeletelsByid</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyDeleteSp</servlet-name>
+  <url-pattern>/zhyDeleteSp</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyDrop</servlet-name>
+  <url-pattern>/zhyDrop</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>zhyrkxq</servlet-name>
+  <url-pattern>/zhyrkxq</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zhyrkxq2</servlet-name>
+    <url-pattern>/zhyrkxq2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zhySpls</servlet-name>
+    <url-pattern>/zhySpls</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zhySpls1</servlet-name>
+    <url-pattern>/zhySpls1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zhySpls2</servlet-name>
+    <url-pattern>/zhySpls2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zhysprk</servlet-name>
+    <url-pattern>/zhysprk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zhySprkAll</servlet-name>
+    <url-pattern>/zhySprkAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zhyXxqk</servlet-name>
+    <url-pattern>/zhyXxqk</url-pattern>
+  </servlet-mapping>
+ <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+ </welcome-file-list>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>
